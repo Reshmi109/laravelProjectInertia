@@ -16,4 +16,14 @@ class FrontEndController extends Controller
           return Inertia::render('About');
     
    }
+
+    public function Product(){
+          return Inertia::render('Product');
+    
+   }
+public function store(){
+return Inertia::render('ProductStore');
+
+}
+   
 }
