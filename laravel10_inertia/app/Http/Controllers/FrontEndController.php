@@ -22,7 +22,7 @@ class FrontEndController extends Controller
     
    }
 public function store(){
-return Inertia::render('ProductStore');
+// return Inertia::render('ProductStore');
 
 }
    
